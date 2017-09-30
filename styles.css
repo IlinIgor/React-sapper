@@ -1,0 +1,95 @@
+.style__buttons___2VPf2 {
+    text-align: center;
+    margin: 20px 10px;
+}
+
+.style__newGame___WEnwU {
+    background-color: #71c371;
+    color: #fff;
+    border: none;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.7);
+    height: 30px;
+    padding: 0 20px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.style__gameOver___ICwUw {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 2;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.style__field___jbSmV {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.style__row___1mhC1 {
+    float: left;
+}
+
+.style__cell___15yJd {
+    width: 24px;
+    height: 24px;
+    line-height: 20px;
+    border: 1px solid #d4d4d4;
+    text-align: center;
+    font-size: 12px;
+    background-color: #ffffff;
+    margin: 4px;
+    margin-left: 0;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0px 0px 7px -2px #252525;
+    transition: transform 100ms ease-out 100ms;
+}
+
+.style__cell___15yJd:active {
+    transform: scale(0.9);
+}
+
+.style__openCell___3oQ62 {
+    background-color: #d4d4d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+}
+
+.style__mineCell___36xSb {
+    background-color: #ff8e8e;
+    border: 1px solid #ff8e8e;
+    box-shadow: 0px 0px 7px -2px #ff8e8e;
+}
+
+.style__mineCount___Q5o4y, .style__dropdown___2ZAdU {
+    width: 60px;
+    height: 30px;
+    border: 1px solid #71c371;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+    margin: 0 5px;
+    text-align: center;
+}
+
+.style__mine___27l0N {
+    width: 18px;
+    height: 18px;
+}
+
+.style__clearfix___2qiWr:before, .style__clearfix___2qiWr:after {
+    display: table;
+    clear: both;
+    height: 0;
+    content: '';
+}

@@ -1,0 +1,101 @@
+.container {
+  display: flex;
+}
+
+.newGame {
+  background-color: #ba9a72;
+  color: #fff;
+  border: none;
+  height: 2.6rem;
+  font-size: 1.2em;
+  padding: 0 1em;
+  margin: .75rem 0;
+  cursor: pointer;
+}
+
+.gameOver {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -70px;
+  margin-top: -15px;
+  background-color: #fff;
+  z-index: 2;
+  font-size: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 30px;
+  width: 140px;
+}
+
+.field {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  float: left;
+}
+
+.cell {
+  width: 24px;
+  height: 24px;
+  line-height: 20px;
+  border: 1px solid #c2c5cb;
+  text-align: center;
+  font-size: 12px;
+  background-color: #ffffff;
+  margin: 4px;
+  margin-left: 0;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0px 0px 4px -2px #252525;
+  transition: transform 100ms ease-out 100ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.openCell {
+  background-color: #c2c5cb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+}
+
+.mineCell {
+  background-color: #ff8e8e;
+  border: 1px solid #ff8e8e;
+  box-shadow: 0px 0px 4px -2px #ff8e8e;
+}
+
+.mineCount, .dropdown {
+  width: 6em;
+  height: 2.6em;
+  border: 1px solid #d8d8d8;
+  border-radius: .2em;
+  box-sizing: border-box;
+  margin: 0 0 0 .75em;
+  text-align: center;
+}
+
+.mine {
+  width: 18px;
+  height: 18px;
+}
+
+.flag {
+  fill: #e70024;
+  width: 18px;
+  height: 18px;
+}
+
+.clearfix:before, .clearfix:after {
+  display: table;
+  clear: both;
+  height: 0;
+  content: '';
+}
