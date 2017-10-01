@@ -37,6 +37,11 @@
 
 .row {
   float: left;
+  margin: -4px 0;
+}
+
+.row:last-child {
+  margin-right: -4px;
 }
 
 .cell {
