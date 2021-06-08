@@ -1,3 +1,3 @@
 # Sapper
 
-http://onepattern.ru/sapper/
+https://ilinigor.github.io/React-sapper/
